@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e499558-e7eb-4f97-9ad0-bfac12770861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +22,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="850">
+              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#247#256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,20 +48,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="340">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#254#263#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Timestamp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -85,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/collection/mountain/Mountain.java" />
         <option value="$PROJECT_DIR$/gitignor" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" />
       </list>
@@ -170,12 +177,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.AppTestTimeAddEachElement">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.musicBox2.App" />
+    <configuration name="AppMusicBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.musicBox.AppMusicBox" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.musicBox2.*" />
+          <option name="PATTERN" value="collections.musicBox.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppMusicBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.musicBox.AppMusicBox" />
+    <configuration name="AppTestAddLinkedVSArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestAddLinkedVSArray" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.musicBox.*" />
+          <option name="PATTERN" value="collection.milionAdd100k.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,9 +246,9 @@
       <list>
         <item itemvalue="Application.AppTestTimeAddEachElement" />
         <item itemvalue="Application.AppTestTimeAddALL" />
+        <item itemvalue="Application.AppTestAddLinkedVSArray" />
         <item itemvalue="Application.SortMountains" />
         <item itemvalue="Application.AppMusicBox" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +279,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2801358" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27843803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -493,29 +500,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gitignor" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="850">
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#247#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Timestamp.java">
+    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#226#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#254#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
