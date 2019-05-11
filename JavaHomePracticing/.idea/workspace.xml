@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e499558-e7eb-4f97-9ad0-bfac12770861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/mountain/HeightCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/mountain/Mountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/mountain/NameCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/mountain/SortMountains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/musicBox2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/musicBox2/ArtistComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/musicBox2/MusikMashin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/musicBox2/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/musicBox2/TitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +18,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#214#223#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Timestamp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+            <state relative-caret-position="1530">
+              <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,10 +85,12 @@
         <option value="$PROJECT_DIR$/src/collection/mountain/Mountain.java" />
         <option value="$PROJECT_DIR$/gitignor" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="30" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -96,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +139,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -162,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppTestTime">
+  <component name="RunManager" selected="Application.AppTestTimeAddEachElement">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.musicBox2.App" />
       <module name="JavaHomePracticing" />
@@ -189,8 +196,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTestTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestTime" />
+    <configuration name="AppTestTimeAddALL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestTimeAddALL" />
+      <module name="JavaHomePracticing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.milionAdd100k.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTestTimeAddEachElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestTimeAddEachElement" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
@@ -217,7 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppTestTime" />
+        <item itemvalue="Application.AppTestTimeAddEachElement" />
+        <item itemvalue="Application.AppTestTimeAddALL" />
         <item itemvalue="Application.SortMountains" />
         <item itemvalue="Application.AppMusicBox" />
         <item itemvalue="Application.App" />
@@ -241,7 +262,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -251,7 +272,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2801358" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,27 +492,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignor">
+    <entry file="file://$PROJECT_DIR$/gitignor" />
+    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Timestamp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="115" column="9" lean-forward="true" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        <state relative-caret-position="1530">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java">
+    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#214#223#0" expanded="true" />
           </folding>
         </state>
       </provider>
