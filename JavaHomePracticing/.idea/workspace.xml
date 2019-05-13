@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e499558-e7eb-4f97-9ad0-bfac12770861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/Add100k.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursiya/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursiya/Fibonachi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursiya/Pascal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursiya/StackOverflow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestAddLinkedVSArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestTimeAddEachElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ignor.gitignor" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,47 +25,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#247#256#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#217#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#254#263#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,13 +58,19 @@
         <option value="$PROJECT_DIR$/src/collection/mountain/Mountain.java" />
         <option value="$PROJECT_DIR$/gitignor" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTime.java" />
-        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java" />
         <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/Add100k.java" />
+        <option value="$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.java" />
+        <option value="$PROJECT_DIR$/src/recursiya/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/recursiya/Fibonachi.java" />
+        <option value="$PROJECT_DIR$/src/recursiya/StacOverFlow.java" />
+        <option value="$PROJECT_DIR$/src/recursiya/Paskal.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="30" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -110,6 +83,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,28 +101,12 @@
               <item name="JavaHomePracticing" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaHomePracticing" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaHomePracticing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHomePracticing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="milionAdd100k" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaHomePracticing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaHomePracticing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="mountain" type="462c0819:PsiDirectoryNode" />
+              <item name="recursiya" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,22 +135,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppTestTimeAddEachElement">
-    <configuration name="AppMusicBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.musicBox.AppMusicBox" />
-      <module name="JavaHomePracticing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.musicBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTestAddLinkedVSArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestAddLinkedVSArray" />
+  <component name="RunManager" selected="Application.Pascal">
+    <configuration name="Add100k" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.Add100k" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
@@ -203,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTestTimeAddALL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestTimeAddALL" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursiya.Factorial" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.milionAdd100k.*" />
+          <option name="PATTERN" value="recursiya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTestTimeAddEachElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.milionAdd100k.AppTestTimeAddEachElement" />
+    <configuration name="Fibonachi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursiya.Fibonachi" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.milionAdd100k.*" />
+          <option name="PATTERN" value="recursiya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +175,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMountains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.mountain.SortMountains" />
+    <configuration name="Pascal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursiya.Pascal" />
       <module name="JavaHomePracticing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.mountain.*" />
+          <option name="PATTERN" value="recursiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackOverflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursiya.StackOverflow" />
+      <module name="JavaHomePracticing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursiya.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppTestTimeAddEachElement" />
-        <item itemvalue="Application.AppTestTimeAddALL" />
-        <item itemvalue="Application.AppTestAddLinkedVSArray" />
-        <item itemvalue="Application.SortMountains" />
-        <item itemvalue="Application.AppMusicBox" />
+        <item itemvalue="Application.Pascal" />
+        <item itemvalue="Application.StackOverflow" />
+        <item itemvalue="Application.Fibonachi" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.Add100k" />
       </list>
     </recent_temporary>
   </component>
@@ -267,9 +226,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,13 +237,13 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27843803" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27843803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3293718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -453,17 +411,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/mountain.java" />
-    <entry file="file://$PROJECT_DIR$/src/collection/mountain/NameCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/mountain/HeightCompare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -471,30 +418,6 @@
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/mountain/SortMountains.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#132#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/mountain/Mountain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,34 +432,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddALL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        <state relative-caret-position="816">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#247#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArray.java">
+    <entry file="file://$PROJECT_DIR$/src/collection/mountain/NameCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/mountain/Mountain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/mountain/SortMountains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/Add100k.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <caret line="99" column="28" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursiya/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="869" column="23" selection-start-line="869" selection-start-column="23" selection-end-line="869" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#217#226#0" expanded="true" />
+            <element signature="e#29974#29975#0" expanded="true" />
+            <element signature="e#30017#30018#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/milionAdd100k/AppTestTimeAddEachElement.java">
+    <entry file="file://$PROJECT_DIR$/src/recursiya/Fibonachi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#254#263#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursiya/Pascal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recursiya/StackOverflow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
