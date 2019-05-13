@@ -1,2 +1,2 @@
 # JavaPracticing
-for Alex assignments
+for Alex tasks
