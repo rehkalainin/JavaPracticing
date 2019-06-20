@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bf4ebce-dcf9-4727-afd8-26709ebe8d15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HotelSort/ListReveiws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelSort/src/main/java/HotelSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotelSort/src/main/java/HotelsSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicBox2/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MusicBox2/src/main/java/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sobes/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/JavaHomePracticing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/META-INF/JavaHomePracticing.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/SongList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/Add100k.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestTimeAddALL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/HeightCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/Mountain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/NameCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/SortMountains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/AppMusicBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/MusicBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/ArtistComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/MusikMashin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/TitleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Fibonachi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Pascal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/StackOverflow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/SongList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/Add100k.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/AppTestTimeAddALL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/HeightCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/Mountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/NameCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/SortMountains.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/AppMusicBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/MusicBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/ArtistComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/MusikMashin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/TitleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Fibonachi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Pascal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/StackOverflow.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/junit/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/junit/Test2.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanConverterOld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RomanConverterTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RomanConverter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RomanConverter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.junit" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RomanConverterTest.test24">
+    <configuration name="RomanConverterTest.test20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="test20" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanConverterTest.test21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="test21" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanConverterTest.test22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="test22" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanConverterTest.test23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="test23" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanConverterTest.test24" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanConverter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanConverterTest" />
+      <option name="METHOD_NAME" value="test24" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RomanConverterTest.test24" />
+        <item itemvalue="JUnit.RomanConverterTest.test22" />
+        <item itemvalue="JUnit.RomanConverterTest.test23" />
+        <item itemvalue="JUnit.RomanConverterTest.test21" />
+        <item itemvalue="JUnit.RomanConverterTest.test20" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bf4ebce-dcf9-4727-afd8-26709ebe8d15" name="Default Changelist" comment="" />
+      <created>1558958074806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558958074806</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RomanConverterTest_test17 - 2019.05.27 at 17h 33m 16s.xml">
+      <configuration name="RomanConverterTest.test17" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test18 - 2019.05.27 at 17h 33m 21s.xml">
+      <configuration name="RomanConverterTest.test18" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test19 - 2019.05.27 at 17h 33m 26s.xml">
+      <configuration name="RomanConverterTest.test19" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test20 - 2019.05.27 at 17h 33m 31s.xml">
+      <configuration name="RomanConverterTest.test20" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test21 - 2019.05.27 at 17h 33m 36s.xml">
+      <configuration name="RomanConverterTest.test21" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test22 - 2019.05.27 at 17h 33m 41s.xml">
+      <configuration name="RomanConverterTest.test22" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test23 - 2019.05.27 at 17h 33m 46s.xml">
+      <configuration name="RomanConverterTest.test23" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test22 - 2019.05.27 at 17h 33m 56s.xml">
+      <configuration name="RomanConverterTest.test22" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test22 - 2019.05.27 at 17h 39m 03s.xml">
+      <configuration name="RomanConverterTest.test22" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RomanConverterTest_test24 - 2019.05.27 at 17h 39m 11s.xml">
+      <configuration name="RomanConverterTest.test24" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34125638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/junit/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/junit/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RomanConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
