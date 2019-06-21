@@ -1,16 +1,15 @@
+import java.sql.SQLOutput;
+
 public class Main
 {
   public static void main(String[] args)
   {
-    RangeTime rangeTime = new RangeTime();
-
-    rangeTime.today();
-    rangeTime.yesterday();
-    rangeTime.thisWeek();
-    rangeTime.previousWeek();
-    rangeTime.thisMonth();
-    rangeTime.previousMonth();
-
+    System.out.println(RangeTime.today());
+    System.out.println(RangeTime.yesterday());
+    System.out.println("this week : "+ RangeTime.thisWeek());
+    System.out.println(RangeTime.previousWeek());
+    System.out.println(RangeTime.thisMonth());
+    System.out.println(RangeTime.previousMonth());
 
   }
 }

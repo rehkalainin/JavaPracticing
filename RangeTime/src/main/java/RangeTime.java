@@ -3,53 +3,52 @@ import java.time.*;
 
 public class RangeTime
 {
-  LocalDateTime timePoint = LocalDateTime.now();
+  public static LocalDateTime timePoint = LocalDateTime.now();
 
-  public void today()
+  public static LocalDate today()
   {
     LocalDate date = timePoint.toLocalDate();
-    System.out.println("Today : "+ date);
-
+    return date;
   }
 
-  public void yesterday()
+  public static LocalDate yesterday()
   {
     LocalDate date = timePoint.minusDays(1).toLocalDate();
-    System.out.println("Yesterday : "+date);
+    return date;
   }
 
-  public void thisWeek()
+  public static PeriodDays thisWeek()
   {
     DayOfWeek dayOfWeek = timePoint.getDayOfWeek();
     int numberDay = dayOfWeek.getValue();
-    LocalDate firstDay = timePoint.minusDays(numberDay-1).toLocalDate(); // -1 to count from Monday
-    LocalDate toDay = timePoint.toLocalDate();
+    LocalDate first = timePoint.minusDays(numberDay - 1).toLocalDate(); // -1 to count from Monday
+    LocalDate last = timePoint.toLocalDate();
 
-    System.out.println("this Week : "+firstDay+" | "+toDay);
+    return new PeriodDays(first, last);
   }
 
-  public void previousWeek()
+  public static PeriodDays previousWeek()
   {
     DayOfWeek dayOfWeek = timePoint.getDayOfWeek();
     int numberDay = dayOfWeek.getValue();
-    LocalDate firstDay = timePoint.minusDays(numberDay-1).minusWeeks(1).toLocalDate(); // -8 count from last Monday
+    LocalDate firstDay = timePoint.minusDays(numberDay - 1).minusWeeks(1).toLocalDate(); // -8 count from last Monday
     LocalDate lastDay = firstDay.plusDays(6);
 
-    System.out.println("previous Week : "+firstDay+" | "+lastDay);
+    return new PeriodDays(firstDay,lastDay);
   }
 
-  public void thisMonth()
+  public static PeriodDays thisMonth()
   {
-    LocalDate firstDay =timePoint.withDayOfMonth(1).toLocalDate();
+    LocalDate firstDay = timePoint.withDayOfMonth(1).toLocalDate();
     LocalDate toDay = timePoint.toLocalDate();
-    System.out.println("thisMonth : "+firstDay+" | "+toDay);
+    return new PeriodDays(firstDay,toDay);
   }
 
-  public void previousMonth()
+  public static PeriodDays previousMonth()
   {
     LocalDate firstDay = timePoint.minusMonths(1).withDayOfMonth(1).toLocalDate();
     LocalDate lastDay = firstDay.plusMonths(1).minusDays(1);
-    System.out.println("lastMonth : "+firstDay+" | "+ lastDay);
+    return new PeriodDays(firstDay,lastDay);
   }
 
 
