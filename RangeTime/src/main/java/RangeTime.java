@@ -31,7 +31,7 @@ public class RangeTime
   {
     DayOfWeek dayOfWeek = timePoint.getDayOfWeek();
     int numberDay = dayOfWeek.getValue();
-    LocalDate firstDay = timePoint.minusDays(numberDay - 1).minusWeeks(1).toLocalDate(); // -8 count from last Monday
+    LocalDate firstDay = timePoint.minusDays(numberDay - 1).minusWeeks(1).toLocalDate();
     LocalDate lastDay = firstDay.plusDays(6);
 
     return new PeriodDays(firstDay,lastDay);

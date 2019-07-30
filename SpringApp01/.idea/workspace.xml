@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31fbbf07-eb7a-430b-895e-93904f67874e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/servise/UserServise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/pages/users_page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/spring/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/CustomerDemoAplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/rest/CustomerRestControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/TopicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/DateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/PostServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/TopicServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassicMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JazzMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/AplicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sweater/src/main/java/com/example/sweater/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sweater/src/main/java/com/example/sweater/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sweater/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sweater/src/main/resources/templates/greeting.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sweater/src/main/resources/templates/main.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/SecureConfig/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/SecureConfig/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/resources/templates/login.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/resources/templates/registration.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/META-INF/JavaHomePracticing.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/SongList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/Add100k.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/milionAdd100k/AppTestTimeAddALL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/HeightCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/Mountain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/NameCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/mountain/SortMountains.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/AppMusicBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/MusicBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/ArtistComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/MusikMashin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/collection/musicBox2/TitleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Factorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Fibonachi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/Pascal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/out/production/JavaHomePracticing/recursiya/StackOverflow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/SongList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/hotels/AppBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/hotels/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/hotels/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/hotels/HotelReviewList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/Add100k.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/AppTestAddLinkedVSArrayVsHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/milionAdd100k/AppTestTimeAddALL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/HeightCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/Mountain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/NameCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/mountain/SortMountains.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/AppMusicBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/MusicBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/ArtistComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/MusikMashin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/collection/musicBox2/TitleComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Fibonachi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/Pascal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/src/recursiya/StackOverflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/GroupDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/RoleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/main/java/ValueObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RangeTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeTime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RangeTime/src/main/java/RangeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeTime/src/main/java/RangeTime.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/musicPlayer.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClassicMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JazzMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MusicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/AplicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RockMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="e#70#71#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassicMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RockMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aplication/Music.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aplication/JazzMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JazzMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aplication/SpringApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/AplicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MusicPlayer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringApp1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SpringApp1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringApp01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringApp01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringApp01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringApp01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringApp01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringApp01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringApp01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringApp01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringApp01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringApp01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringApp1" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="aplication" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SpringApp (1)">
+    <configuration name="SpringApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpringApp" />
+      <module name="SpringMusicPlayerList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aplication.SpringApp" />
+      <module name="SpringMusicPlayerList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SpringMusicPlayerList" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="SpringMusicPlayerList" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringApp (1)" />
+        <item itemvalue="Application.SpringApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31fbbf07-eb7a-430b-895e-93904f67874e" name="Default Changelist" comment="" />
+      <created>1562688129958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562688129958</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="DB Browser" />
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MVC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="66" column="12" selection-start-line="53" selection-start-column="4" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="423" column="24" selection-start-line="423" selection-start-column="24" selection-end-line="423" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TestBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aplication/Music.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/aplication/JazzMusic.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RockMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#70#71#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassicMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/musicPlayer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MusicPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AplicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JazzMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
