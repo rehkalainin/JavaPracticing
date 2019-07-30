@@ -2,72 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92e946ad-cf93-48d1-9bfb-31a36a2f9bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/DAO/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/java/system/servise/UserServise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/pages/users_page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/spring/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/src/main/webApp/web-inf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/CustomerDemoAplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/rest/CustomerRestControllerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/java/net/proselyte/customerdemo/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RestDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/TopicDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/entites/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/DateServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/PostServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/java/servlet/TopicServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleServletApp/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/ClassicMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/JazzMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/java/SpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/resources/AplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/resources/musicPlayer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringApp01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicAnatation/src/main/java/org/rehkalainin/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/ClassicMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/JazzMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/java/org/rehkalainin/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayer/src/main/resources/MusicPlayerConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/ClassicMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/MusicGenre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/java/org/rehkalainin/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringMusicPlayerList/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/SecureConfig/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/SecureConfig/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/java/com/rehkalainin/bookStore/repository/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/resources/templates/login.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bookStore/src/main/resources/templates/registration.mustache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/repo/MessageRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaHomePracticing/.idea/uiDesigner.xml" beforeDir="false" />
@@ -130,8 +67,10 @@
       <change beforePath="$PROJECT_DIR$/../Program/src/main/java/User.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Program/src/main/java/UserDAO.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Program/src/main/java/ValueObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RangeTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeTime/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RangeTime/src/main/java/RangeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeTime/src/main/java/RangeTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.mustache" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -149,17 +88,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#607#608#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/repo/MessageRepo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="173">
+              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -185,7 +165,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -206,6 +186,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -219,10 +200,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/sweater/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Greeting.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/Greeting.mustache" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/main.mustache" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sweater/repo/MessageRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/main.mustache" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java" />
       </list>
     </option>
   </component>
@@ -233,17 +216,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="30" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -292,6 +265,24 @@
               <item name="Sweater" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sweater" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sweater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sweater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sweater" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sweater" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sweater" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,6 +310,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -418,13 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -435,10 +424,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="127">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/repo/MessageRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -447,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -460,6 +481,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/sweater/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,29 @@
 <html>
 <body>
-    <div><h1>{{some}}</h1></div>
+<div>
+    <form method="post">
+        <input type="text" name="text"placeholder="Enter text"/>
+        <input type="text" name="tag" placeholder="Enter tag"/>
+        <button type="submit">Add</button>
+    </form>
+</div>
+<div>
+    <form method="post" action="filter">
+        <input type="text" name="filter" placeholder="Find by filter"/>
+        <button type="submit">Find</button>
+    </form>
+</div>
+<div>
+    <b>All messages</b>
+    {{#message}}
+        <div>
+            <b>{{id}}</b>
+            <span>{{text}}</span>
+            <i>{{tag}}</i>
+        </div>
+
+    {{/message}}
+</div>
     <div>
         <p>Go to the <a href="/greeting">next page</a></p>
     </div>
